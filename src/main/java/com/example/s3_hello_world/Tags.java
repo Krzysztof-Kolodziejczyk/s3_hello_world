@@ -1,2 +1,23 @@
-package com.example.s3_hello_world;public class Tags {
+package com.example.s3_hello_world;
+
+public class Tags {
+
+    private String name;
+    private String description;
+
+    public String getDesc() {
+        return this.description;
+    }
+
+    public void setDesc(String description) {
+        this.description = description;
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
